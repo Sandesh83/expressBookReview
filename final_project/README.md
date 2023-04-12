@@ -1,1 +1,1 @@
-Practice-Project
+Project for book review

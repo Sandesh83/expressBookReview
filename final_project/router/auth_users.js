@@ -42,7 +42,7 @@ regd_users.post("/", (req, res) => {
       );
       req.session.accessToken = accessToken;
       req.session.username = username;
-      res.status(201).send(accessToken);
+      res.status(201).json("Customer logged it sucessfully")
     }
   } else {
     return res
